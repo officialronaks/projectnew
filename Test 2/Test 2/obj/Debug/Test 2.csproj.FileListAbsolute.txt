@@ -77,3 +77,7 @@ C:\Users\LENOVO\source\repos\Test 2\Test 2\obj\Debug\Test 2.csproj.CoreCompileIn
 C:\Users\LENOVO\source\repos\Test 2\Test 2\obj\Debug\Test 2.csproj.CopyComplete
 C:\Users\LENOVO\source\repos\Test 2\Test 2\obj\Debug\Test 2.dll
 C:\Users\LENOVO\source\repos\Test 2\Test 2\obj\Debug\Test 2.pdb
+C:\Users\LENOVO\source\repos\Test 2\Test 2\bin\EntityFramework.dll
+C:\Users\LENOVO\source\repos\Test 2\Test 2\bin\EntityFramework.SqlServer.dll
+C:\Users\LENOVO\source\repos\Test 2\Test 2\bin\EntityFramework.xml
+C:\Users\LENOVO\source\repos\Test 2\Test 2\bin\EntityFramework.SqlServer.xml
