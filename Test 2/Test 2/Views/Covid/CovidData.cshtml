@@ -1,0 +1,37 @@
+﻿@using System.Data
+@model DataTable
+@{
+    ViewBag.Title = "CovidData";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<table class="table">
+    <thread>
+        <tr>
+            <th>
+                @Html.DisplayName("dates")
+            </th>
+            <th>
+                @Html.DisplayName("delta")
+            </th>
+            <th>
+                @Html.DisplayName("confirmed")
+            </th>
+            <th>
+                @Html.DisplayName("total")
+            </th>
+        </tr>
+    </thread>
+    <tbody>
+        @foreach(DataRow row in Model.Rows)
+            {
+                <tr>
+                    <td>@row["dates"]</td>
+                    <td>@row["delta"]</td>
+                    <td>@row["confirmed"]</td>
+                    <td>@row["total"]</td>
+                </tr>
+            }
+    </tbody>
+</table>
